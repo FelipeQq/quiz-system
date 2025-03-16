@@ -1,3 +1,7 @@
+export const config = {
+  maxDuration: 55, // Define um tempo limite maior
+};
+
 import { createDeepSeek } from "@ai-sdk/deepseek";
 import { generateText } from "ai";
 import { NextRequest, NextResponse } from "next/server";
