@@ -1,3 +1,4 @@
+export const runtime = "edge";
 export const maxDuration = 55;
 
 import { createDeepSeek } from "@ai-sdk/deepseek";
