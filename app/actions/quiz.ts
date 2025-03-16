@@ -31,7 +31,6 @@ export async function generateQuestions(
     }
 
     const data = await response.json();
-
     return data;
   } catch (error) {
     console.error("Erro ao gerar perguntas:", error);
