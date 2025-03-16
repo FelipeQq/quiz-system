@@ -1,6 +1,4 @@
-export const config = {
-  maxDuration: 55, // Define um tempo limite maior
-};
+export const maxDuration = 55;
 
 import { createDeepSeek } from "@ai-sdk/deepseek";
 import { generateText } from "ai";
