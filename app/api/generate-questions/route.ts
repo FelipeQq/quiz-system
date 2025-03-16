@@ -5,7 +5,7 @@ import { generateText } from "ai";
 import { NextRequest, NextResponse } from "next/server";
 
 const deepseek = createDeepSeek({
-  apiKey: process.env.DEEPSEEK_API_KEY, // Chave da API armazenada em variáveis de ambiente
+  apiKey: process.env.DEEPSEEK_API_KEY,
 });
 
 export async function POST(req: NextRequest) {
